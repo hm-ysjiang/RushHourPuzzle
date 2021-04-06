@@ -1,0 +1,37 @@
+<html>
+
+<head>
+	<title>Artificial Intelligence HW1 Visualizer</title>
+	<script type="text/javascript" src="./scripts/sha1.min.js"></script>
+	<script type="text/javascript" src="./scripts/p5.min.js"></script>
+	<script type="text/javascript" src="./scripts/p5.dom.min.js"></script>
+	<script type="text/javascript" src="./scripts/sketch.js"></script>
+</head>
+
+<body>
+	<div id='cont-req' style='display: flex; flex-direction: column; align-items: center; width: 450px; row-gap: 10px;'>
+		<p style='margin: 4px;'>貼上對應資料後按下OK</p>
+		<button style='width: 120px;' id='ok'>OK</button>
+		<div style='display: flex; flex-direction: row; column-gap: 8px;'>
+			<div style='display: flex; flex-direction: column; align-items: center;'>
+				<p style='margin: 4px;'>Level</p>
+				<textarea id='puzzle' rows='10' style="resize: none; width: 200px;"></textarea>
+			</div>
+			<div style='display: flex; flex-direction: column; align-items: center;'>
+				<p style='margin: 4px;'>Solution</p>
+				<textarea id='solution' rows='10' style="resize: none; width: 200px;"></textarea>
+			</div>
+		</div>
+		<input type='hidden' id='flag'>
+	</div>
+	<div id='p5container' style='width: fit-content; display: none; margin: 0 auto;'></div>
+	<script>
+		document.getElementById('ok').addEventListener('click', evt => {
+			document.getElementById('flag').setAttribute('value', 'ready')
+			document.getElementById('cont-req').style.display = 'none'
+			document.getElementById('p5container').style.display = 'block'
+		})
+	</script>
+</body>
+
+</html>

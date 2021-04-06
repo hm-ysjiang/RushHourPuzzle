@@ -1,0 +1,20 @@
+Algorithm Performed: BFS
+Time Elapsed: 2.03 sec
+Expanded Nodes: 3248
+Memory Usage at peak: 628.4030 KB
+Solution Steps: 14 steps
+
+01: 0 2 1
+02: 1 0 2
+03: 1 0 1
+04: 3 4 3
+05: 6 1 0
+06: 1 0 0
+07: 8 0 3
+08: 0 2 2
+09: 9 1 4
+10: 9 0 4
+11: 0 2 3
+12: 10 2 5
+13: 10 3 5
+14: 0 2 4

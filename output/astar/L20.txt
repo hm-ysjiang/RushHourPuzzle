@@ -1,0 +1,24 @@
+Algorithm Performed: A*
+Time Elapsed: 1.30 sec
+Expanded Nodes: 1684
+Memory Usage at peak: 497.1370 KB
+Solution Steps: 18 steps
+
+01: 8 2 3
+02: 2 1 2
+03: 2 1 3
+04: 6 1 2
+05: 6 0 2
+06: 7 3 2
+07: 7 2 2
+08: 3 4 2
+09: 3 4 1
+10: 3 4 0
+11: 7 3 2
+12: 4 5 2
+13: 9 3 5
+14: 8 3 3
+15: 0 2 1
+16: 0 2 2
+17: 0 2 3
+18: 0 2 4
